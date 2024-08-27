@@ -56,6 +56,10 @@ textarea {
     font-style: normal;
 }
 
+body {
+    background-color: rgb(17, 24, 39);
+}
+
 button {
     background-color: #596D48;
 }
