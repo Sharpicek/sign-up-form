@@ -60,17 +60,24 @@ body {
     background-color: rgb(17, 24, 39);
 }
 
+button {
+    background-color: #596D48;
+}
+
 main {
     width: clamp(320px, 80vw, 100%);
     margin: auto;
 }
 
-img,
 section.left-side {
+    position: relative;
+}
+
+section.right-side {
+    width: max(400px, 50%);
+}
+img.background-img {
     max-height: 100vh;
 }
 
-button {
-    background-color: #596D48;
-}
 
