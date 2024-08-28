@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('/fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('/fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Custom CSS Reset */
 
 *, *::before, *::after {
@@ -48,14 +56,6 @@ textarea {
 
 /* End of Custom CSS Reset */
 
-@font-face {
-    font-family: 'norsebold';
-    src: url('norse-bold-webfont.woff2') format('woff2'),
-         url('norse-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     background-color: rgb(17, 24, 39);
 }
@@ -67,17 +67,48 @@ button {
 main {
     width: clamp(320px, 80vw, 100%);
     margin: auto;
+    display: flex;
 }
 
 section.left-side {
     position: relative;
+    height: 100vh;
+    max-height: 100vh;
 }
 
+div.background-transparent {
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    height: 5rem;
+    max-height: 5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    displaY: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+div.text {
+    text-align: center;
+    color: white;
+    font-family: 'norsebold', 'Arial';
+    font-size: 4rem;
+}
+
+img.odin-logo {
+    max-height: 100%;
+    padding: 2%;
+}
 section.right-side {
     width: max(400px, 50%);
 }
+
 img.background-img {
+    height: 100vh;
     max-height: 100vh;
+    object-fit: cover;
 }
 
 
