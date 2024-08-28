@@ -73,6 +73,9 @@ a:hover {
     color: hsl(0, 0%, 80%);
 }
 
+span.italic {
+    font-style: italic;
+}
 button {
     background-color: #596D48;
 }
