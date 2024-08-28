@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-/* Custom CSS Reset */
+/* ----- Custom CSS Reset ----- */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -14,7 +14,6 @@
 }
 
 body {
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -54,14 +53,10 @@ textarea {
 	font-size: 100%; 
 }
 
-/* End of Custom CSS Reset */
+/* ----- Main CSS ----- */
 
 body {
     background-color: rgb(17, 24, 39);
-}
-
-button {
-    background-color: #596D48;
 }
 
 main {
@@ -69,6 +64,12 @@ main {
     margin: auto;
     display: flex;
 }
+
+button {
+    background-color: #596D48;
+}
+
+/* ----- Left Side ----- */
 
 section.left-side {
     position: relative;
@@ -78,15 +79,15 @@ section.left-side {
 
 div.background-transparent {
     position: absolute;
-    top: 6rem;
+    top: 8rem;
     width: 100%;
-    height: 5rem;
-    max-height: 5rem;
+    height: 6rem;
+    max-height: 6rem;
     background-color: rgba(0, 0, 0, 0.6);
     displaY: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 2vw;
     z-index: 1;
 }
 
@@ -101,14 +102,30 @@ img.odin-logo {
     max-height: 100%;
     padding: 2%;
 }
-section.right-side {
-    width: max(400px, 50%);
-}
 
 img.background-img {
     height: 100vh;
     max-height: 100vh;
     object-fit: cover;
 }
+
+/* ----- Right (Form) Side ----- */
+
+section.right-side {
+    width: max(400px, 60%);
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+
+.text-section p {
+    margin: 5%;
+}
+
+.form-section {
+    background-color: white;
+    
+}
+
+
 
 
