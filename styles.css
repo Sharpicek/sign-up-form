@@ -57,6 +57,7 @@ textarea {
 
 body {
     background-color: rgb(17, 24, 39);
+    font-family: arial;
 }
 
 main {
@@ -75,9 +76,6 @@ a:hover {
 
 span.italic {
     font-style: italic;
-}
-button {
-    background-color: #596D48;
 }
 
 /* ----- Left Side ----- */
@@ -140,21 +138,28 @@ section.right-side {
     width: max(400px, 60%);
     background-color: rgb(241, 241, 241);
     display: flex;
+    flex-direction: column;
 }
+
+/* --- Top (Text) section --- */
 
 .text-section p {
     margin: 20% 5% 5%;
     font-weight: bold;
-    font-family: arial;
 }
 
 .text-section p:last-child {
     margin-top: 5%;
 }
 
+/* --- Middle (Form) Section --- */
+
 .form-section {
-    background-color: white;  
+    background-color: white;
+    box-shadow:  0 8px 8px -8px gray;
 }
+
+/* --- Bottom (Button) Section --- */ 
 
 a.login {
     color:#596D48;
@@ -165,6 +170,32 @@ a.login {
 a.login:hover {
     color:hsl(92, 20%, 45%);
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5%;
+    box-shadow: 0 8px 8px -8px gray;
+}
+
+button:hover {
+    background-color: hsl(92, 20%, 45%);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+section.button-section p {
+    margin: 5%;
+    margin-top: 0;
+    font-size: 80%;
+}
+
 
 
 
