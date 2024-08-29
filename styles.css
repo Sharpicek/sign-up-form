@@ -157,6 +157,22 @@ section.right-side {
 .form-section {
     background-color: white;
     box-shadow:  0 8px 8px -8px gray;
+    padding: 2.5% 5%;
+}
+
+.form-section p {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-input {
+    flex: 1;
 }
 
 /* --- Bottom (Button) Section --- */ 
