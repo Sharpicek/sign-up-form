@@ -156,6 +156,15 @@ section.right-side {
     background-color: white;  
 }
 
+a.login {
+    color:#596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.login:hover {
+    color:hsl(92, 20%, 45%);
+}
 
 
 
