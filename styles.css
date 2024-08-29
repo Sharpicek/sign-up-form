@@ -143,7 +143,13 @@ section.right-side {
 }
 
 .text-section p {
-    margin: 5%;
+    margin: 20% 5% 5%;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.text-section p:last-child {
+    margin-top: 5%;
 }
 
 .form-section {
