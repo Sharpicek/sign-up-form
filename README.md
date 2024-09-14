@@ -1,7 +1,9 @@
 # Sign Up Form
 This was created for [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
-I didn't yet finish the validation, because it should be thought in the later lesons.
+I didn't yet finish the validation, because it should be thought in the later lessons.
+
+Same as with the Admin Dahsboard project - I worked with VS Code live feature and sizing is off. So I had to redo some parts.
 
 ## The Odin Projects
 Here is the list of all my projects I did at [The Odin Project](https://www.theodinproject.com/) curriculum in order in which they were done.
